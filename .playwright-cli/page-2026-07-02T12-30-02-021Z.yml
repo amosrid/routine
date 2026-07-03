@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - complementary [ref=e17]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: DR
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: Daily Routine
+            - paragraph [ref=e23]: Amos Visual Audit
+        - navigation [ref=e24]:
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Today
+            - generic [ref=e27]:
+              - link "H Home" [ref=e28] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e29]: H
+                - generic [ref=e30]: Home
+              - link "T Templates" [ref=e31] [cursor=pointer]:
+                - /url: /routine/templates
+                - generic [ref=e32]: T
+                - generic [ref=e33]: Templates
+              - link "G Settings" [ref=e34] [cursor=pointer]:
+                - /url: /settings
+                - generic [ref=e35]: G
+                - generic [ref=e36]: Settings
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Track
+            - generic [ref=e39]:
+              - link "S Study" [ref=e40] [cursor=pointer]:
+                - /url: /deepwork
+                - generic [ref=e41]: S
+                - generic [ref=e42]: Study
+              - link "L Language" [ref=e43] [cursor=pointer]:
+                - /url: /language
+                - generic [ref=e44]: L
+                - generic [ref=e45]: Language
+              - link "E Exercise" [ref=e46] [cursor=pointer]:
+                - /url: /exercise
+                - generic [ref=e47]: E
+                - generic [ref=e48]: Exercise
+              - link "B Book" [ref=e49] [cursor=pointer]:
+                - /url: /book
+                - generic [ref=e50]: B
+                - generic [ref=e51]: Book
+              - link "J Journaling" [ref=e52] [cursor=pointer]:
+                - /url: /journaling
+                - generic [ref=e53]: J
+                - generic [ref=e54]: Journaling
+              - link "Z Sleep" [ref=e55] [cursor=pointer]:
+                - /url: /sleep
+                - generic [ref=e56]: Z
+                - generic [ref=e57]: Sleep
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Plan
+            - generic [ref=e60]:
+              - link "D Todo" [ref=e61] [cursor=pointer]:
+                - /url: /todo
+                - generic [ref=e62]: D
+                - generic [ref=e63]: Todo
+              - link "A Stats" [ref=e64] [cursor=pointer]:
+                - /url: /stats
+                - generic [ref=e65]: A
+                - generic [ref=e66]: Stats
+        - button "Logout" [ref=e69] [cursor=pointer]
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Today Command Center
+            - heading "Welcome, Amos Visual Audit" [level=1] [ref=e77]
+            - paragraph [ref=e78]: Set up the day, clear the checklist, and turn completed items into useful history.
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: WIB date
+            - paragraph [ref=e81]: 2026-07-02
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Streak
+                - paragraph [ref=e87]: 0 days
+                - paragraph [ref=e88]: "Best: 14 days"
+              - generic [ref=e89]: 🔥
+            - paragraph [ref=e90]: Ready to start
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Daily Routine Lock
+            - paragraph [ref=e95]: Locked
+            - paragraph [ref=e96]: Structure is locked after 11:00 WIB. Checklist and skip actions stay available.
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Score
+            - paragraph [ref=e99]: 0%
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - heading "Today's Routine" [level=2] [ref=e104]
+              - paragraph [ref=e105]: Focused Weekday | 2026-07-02
+            - generic [ref=e106]:
+              - text: "Score:"
+              - generic [ref=e107]: 0%
+          - generic [ref=e108]:
+            - article [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - heading "08:00-09:30 - Vibe Coding" [level=3] [ref=e112]
+                  - paragraph [ref=e113]: "Study | Planned: 90 minutes"
+                - generic [ref=e114]:
+                  - button "Complete" [ref=e116] [cursor=pointer]
+                  - button "Undo" [disabled] [ref=e118]
+              - generic [ref=e119]:
+                - textbox "Optional skip reason" [ref=e120]
+                - button "Skip" [ref=e121] [cursor=pointer]
+            - article [ref=e122]:
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - heading "19:00-19:45 - English" [level=3] [ref=e125]
+                  - paragraph [ref=e126]: "Language | Planned: 45 minutes"
+                - generic [ref=e127]:
+                  - button "Complete" [ref=e129] [cursor=pointer]
+                  - button "Undo" [disabled] [ref=e131]
+              - generic [ref=e132]:
+                - textbox "Optional skip reason" [ref=e133]
+                - button "Skip" [ref=e134] [cursor=pointer]
+            - article [ref=e135]:
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - heading "Unscheduled - Mobility" [level=3] [ref=e138]
+                  - paragraph [ref=e139]: "Exercise | Planned: 30 minutes"
+                - generic [ref=e140]:
+                  - button "Complete" [ref=e142] [cursor=pointer]
+                  - button "Undo" [disabled] [ref=e144]
+              - generic [ref=e145]:
+                - textbox "Optional skip reason" [ref=e146]
+                - button "Skip" [ref=e147] [cursor=pointer]
+            - article [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - heading "Unscheduled - Atomic Habits" [level=3] [ref=e151]
+                  - paragraph [ref=e152]: "Book | Planned: 35 minutes"
+                - generic [ref=e153]:
+                  - button "Complete" [ref=e155] [cursor=pointer]
+                  - button "Undo" [disabled] [ref=e157]
+              - generic [ref=e158]:
+                - textbox "Optional skip reason" [ref=e159]
+                - button "Skip" [ref=e160] [cursor=pointer]
+            - article [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - heading "Unscheduled - Dimsum prep" [level=3] [ref=e164]
+                  - paragraph [ref=e165]: "Custom | Planned: 30 minutes"
+                - generic [ref=e166]:
+                  - button "Complete" [ref=e168] [cursor=pointer]
+                  - button "Undo" [disabled] [ref=e170]
+              - generic [ref=e171]:
+                - textbox "Optional skip reason" [ref=e172]
+                - button "Skip" [ref=e173] [cursor=pointer]

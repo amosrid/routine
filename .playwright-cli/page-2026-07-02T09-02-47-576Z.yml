@@ -1,0 +1,57 @@
+- generic [ref=e1]:
+  - alert [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Daily Routine
+        - paragraph [ref=e20]: Amos Visual Audit
+      - generic [ref=e21]:
+        - link "Home" [ref=e22] [cursor=pointer]:
+          - /url: /
+        - link "Settings" [ref=e23] [cursor=pointer]:
+          - /url: /settings
+        - link "Templates" [ref=e24] [cursor=pointer]:
+          - /url: /routine/templates
+        - link "Study" [active] [ref=e25] [cursor=pointer]:
+          - /url: /deepwork
+        - link "Language" [ref=e26] [cursor=pointer]:
+          - /url: /language
+        - link "Exercise" [ref=e27] [cursor=pointer]:
+          - /url: /exercise
+        - link "Book" [ref=e28] [cursor=pointer]:
+          - /url: /book
+        - link "Journaling" [ref=e29] [cursor=pointer]:
+          - /url: /journaling
+        - link "Sleep" [ref=e30] [cursor=pointer]:
+          - /url: /sleep
+        - link "Todo" [ref=e31] [cursor=pointer]:
+          - /url: /todo
+        - link "Stats" [ref=e32] [cursor=pointer]:
+          - /url: /stats
+        - button "Logout" [ref=e34] [cursor=pointer]
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - heading "Study Details" [level=1] [ref=e137]
+        - paragraph [ref=e138]: Manage study subjects, fill details for completed routine items, and track accumulated study duration.
+      - generic [ref=e139]:
+        - heading "Study Subjects" [level=2] [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - text: Add Study Subject
+            - textbox "Add Study Subject" [ref=e143]:
+              - /placeholder: PHP, Laravel, Vibe Coding
+          - button "Add" [ref=e144] [cursor=pointer]
+        - list [ref=e145]:
+          - listitem [ref=e146]:
+            - generic [ref=e147]: Vibe Coding
+            - button "Delete" [ref=e149] [cursor=pointer]
+      - generic [ref=e150]:
+        - heading "Pending Study Details" [level=2] [ref=e151]
+        - paragraph [ref=e152]: No completed study items are waiting for details.
+      - generic [ref=e153]:
+        - heading "Total Duration" [level=2] [ref=e154]
+        - group [ref=e156]:
+          - 'generic "Vibe Coding: 0 min" [ref=e157] [cursor=pointer]'
+      - generic [ref=e158]:
+        - heading "History" [level=2] [ref=e159]
+        - paragraph [ref=e160]: No logs yet.

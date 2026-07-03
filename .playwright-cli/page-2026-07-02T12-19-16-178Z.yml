@@ -1,0 +1,86 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - complementary [ref=f1e4]:
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: DR
+          - generic [ref=f1e8]:
+            - paragraph [ref=f1e9]: Daily Routine
+            - paragraph [ref=f1e10]: Amos Visual Audit
+        - navigation [ref=f1e11]:
+          - generic [ref=f1e12]:
+            - paragraph [ref=f1e13]: Today
+            - generic [ref=f1e14]:
+              - link "H Home" [ref=f1e15] [cursor=pointer]:
+                - /url: /
+                - generic [ref=f1e16]: H
+                - generic [ref=f1e17]: Home
+              - link "T Templates" [active] [ref=f1e18] [cursor=pointer]:
+                - /url: /routine/templates
+                - generic [ref=f1e19]: T
+                - generic [ref=f1e20]: Templates
+              - link "G Settings" [ref=f1e165] [cursor=pointer]:
+                - /url: /settings
+                - generic [ref=f1e166]: G
+                - generic [ref=f1e167]: Settings
+          - generic [ref=f1e21]:
+            - paragraph [ref=f1e22]: Track
+            - generic [ref=f1e23]:
+              - link "S Study" [ref=f1e24] [cursor=pointer]:
+                - /url: /deepwork
+                - generic [ref=f1e25]: S
+                - generic [ref=f1e26]: Study
+              - link "L Language" [ref=f1e27] [cursor=pointer]:
+                - /url: /language
+                - generic [ref=f1e28]: L
+                - generic [ref=f1e29]: Language
+              - link "E Exercise" [ref=f1e30] [cursor=pointer]:
+                - /url: /exercise
+                - generic [ref=f1e31]: E
+                - generic [ref=f1e32]: Exercise
+              - link "B Book" [ref=f1e33] [cursor=pointer]:
+                - /url: /book
+                - generic [ref=f1e34]: B
+                - generic [ref=f1e35]: Book
+              - link "J Journaling" [ref=f1e36] [cursor=pointer]:
+                - /url: /journaling
+                - generic [ref=f1e37]: J
+                - generic [ref=f1e38]: Journaling
+              - link "Z Sleep" [ref=f1e39] [cursor=pointer]:
+                - /url: /sleep
+                - generic [ref=f1e40]: Z
+                - generic [ref=f1e41]: Sleep
+          - generic [ref=f1e42]:
+            - paragraph [ref=f1e43]: Plan
+            - generic [ref=f1e44]:
+              - link "D Todo" [ref=f1e45] [cursor=pointer]:
+                - /url: /todo
+                - generic [ref=f1e46]: D
+                - generic [ref=f1e47]: Todo
+              - link "A Stats" [ref=f1e48] [cursor=pointer]:
+                - /url: /stats
+                - generic [ref=f1e49]: A
+                - generic [ref=f1e50]: Stats
+        - button "Logout" [ref=f1e59] [cursor=pointer]
+      - generic [ref=f1e168]:
+        - generic [ref=f1e169]:
+          - heading "Routine Templates" [level=1] [ref=f1e170]
+          - paragraph [ref=f1e171]: Create reusable routine plans from your master data.
+        - group [ref=f1e173]:
+          - generic "Create Template" [ref=f1e174] [cursor=pointer]
+        - generic [ref=f1e175]:
+          - heading "Templates" [level=2] [ref=f1e176]
+          - group [ref=f1e177]:
+            - generic "Focused Weekday Mon, Tue, Wed, Thu, Fri | 230 minutes | 5 blocks" [ref=f1e178] [cursor=pointer]:
+              - generic [ref=f1e179]: Focused Weekday
+              - generic [ref=f1e180]: Mon, Tue, Wed, Thu, Fri | 230 minutes | 5 blocks
+            - option "Study" [selected]
+            - option "Language"
+            - option "Exercise"
+            - option "Book"
+            - option "Morning Journal"
+            - option "Night Journal"
+            - option "Custom"
+            - option "Choose during morning setup" [selected]
+            - option "Vibe Coding"
+  - alert [ref=f1e164]

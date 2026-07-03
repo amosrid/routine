@@ -1,0 +1,70 @@
+- generic [ref=e1]:
+  - alert [ref=e14]
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Daily Routine
+        - paragraph [ref=e20]: Amos Visual Audit
+      - generic [ref=e21]:
+        - link "Home" [ref=e22] [cursor=pointer]:
+          - /url: /
+        - link "Settings" [ref=e23] [cursor=pointer]:
+          - /url: /settings
+        - link "Templates" [ref=e24] [cursor=pointer]:
+          - /url: /routine/templates
+        - link "Study" [ref=e25] [cursor=pointer]:
+          - /url: /deepwork
+        - link "Language" [ref=e26] [cursor=pointer]:
+          - /url: /language
+        - link "Exercise" [ref=e27] [cursor=pointer]:
+          - /url: /exercise
+        - link "Book" [ref=e28] [cursor=pointer]:
+          - /url: /book
+        - link "Journaling" [ref=e29] [cursor=pointer]:
+          - /url: /journaling
+        - link "Sleep" [ref=e30] [cursor=pointer]:
+          - /url: /sleep
+        - link "Todo" [ref=e31] [cursor=pointer]:
+          - /url: /todo
+        - link "Stats" [active] [ref=e32] [cursor=pointer]:
+          - /url: /stats
+        - button "Logout" [ref=e34] [cursor=pointer]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - heading "Statistics" [level=1] [ref=e163]
+        - paragraph [ref=e164]: Review score trends and accumulated activity time.
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - paragraph [ref=e167]: Average Score This Week
+          - paragraph [ref=e168]: 0%
+        - generic [ref=e169]:
+          - paragraph [ref=e170]: Average Score This Month
+          - paragraph [ref=e171]: 0%
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: Tracked Days
+          - paragraph [ref=e174]: "1"
+      - generic [ref=e175]:
+        - heading "Daily Scores" [level=2] [ref=e176]
+        - generic [ref=e178]:
+          - generic [ref=e179]: 2026-07-02
+          - generic [ref=e181]: 0%
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - heading "Study Duration" [level=2] [ref=e184]
+          - paragraph [ref=e185]: No activity yet.
+        - generic [ref=e186]:
+          - heading "Language Duration" [level=2] [ref=e187]
+          - paragraph [ref=e188]: No activity yet.
+        - generic [ref=e189]:
+          - heading "Exercise Duration" [level=2] [ref=e190]
+          - paragraph [ref=e191]: No activity yet.
+        - generic [ref=e192]:
+          - heading "Book Duration" [level=2] [ref=e193]
+          - paragraph [ref=e194]: No activity yet.
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - paragraph [ref=e197]: Average Sleep Last 7 Days
+          - paragraph [ref=e198]: 0m
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: Average Sleep Last 30 Days
+          - paragraph [ref=e201]: 0m

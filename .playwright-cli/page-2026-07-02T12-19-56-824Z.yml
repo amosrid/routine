@@ -1,0 +1,91 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - complementary [ref=f1e4]:
+        - generic [ref=f1e6]:
+          - generic [ref=f1e7]: DR
+          - generic [ref=f1e8]:
+            - paragraph [ref=f1e9]: Daily Routine
+            - paragraph [ref=f1e10]: Amos Visual Audit
+        - navigation [ref=f1e11]:
+          - generic [ref=f1e12]:
+            - paragraph [ref=f1e13]: Today
+            - generic [ref=f1e14]:
+              - link "H Home" [ref=f1e15] [cursor=pointer]:
+                - /url: /
+                - generic [ref=f1e16]: H
+                - generic [ref=f1e17]: Home
+              - link "T Templates" [ref=f1e18] [cursor=pointer]:
+                - /url: /routine/templates
+                - generic [ref=f1e19]: T
+                - generic [ref=f1e20]: Templates
+              - link "G Settings" [ref=f1e165] [cursor=pointer]:
+                - /url: /settings
+                - generic [ref=f1e166]: G
+                - generic [ref=f1e167]: Settings
+          - generic [ref=f1e21]:
+            - paragraph [ref=f1e22]: Track
+            - generic [ref=f1e23]:
+              - link "S Study" [active] [ref=f1e24] [cursor=pointer]:
+                - /url: /deepwork
+                - generic [ref=f1e25]: S
+                - generic [ref=f1e26]: Study
+              - link "L Language" [ref=f1e27] [cursor=pointer]:
+                - /url: /language
+                - generic [ref=f1e28]: L
+                - generic [ref=f1e29]: Language
+              - link "E Exercise" [ref=f1e30] [cursor=pointer]:
+                - /url: /exercise
+                - generic [ref=f1e31]: E
+                - generic [ref=f1e32]: Exercise
+              - link "B Book" [ref=f1e33] [cursor=pointer]:
+                - /url: /book
+                - generic [ref=f1e34]: B
+                - generic [ref=f1e35]: Book
+              - link "J Journaling" [ref=f1e36] [cursor=pointer]:
+                - /url: /journaling
+                - generic [ref=f1e37]: J
+                - generic [ref=f1e38]: Journaling
+              - link "Z Sleep" [ref=f1e39] [cursor=pointer]:
+                - /url: /sleep
+                - generic [ref=f1e40]: Z
+                - generic [ref=f1e41]: Sleep
+          - generic [ref=f1e42]:
+            - paragraph [ref=f1e43]: Plan
+            - generic [ref=f1e44]:
+              - link "D Todo" [ref=f1e45] [cursor=pointer]:
+                - /url: /todo
+                - generic [ref=f1e46]: D
+                - generic [ref=f1e47]: Todo
+              - link "A Stats" [ref=f1e48] [cursor=pointer]:
+                - /url: /stats
+                - generic [ref=f1e49]: A
+                - generic [ref=f1e50]: Stats
+        - button "Logout" [ref=f1e59] [cursor=pointer]
+      - generic [ref=f1e181]:
+        - generic [ref=f1e182]:
+          - heading "Study Details" [level=1] [ref=f1e183]
+          - paragraph [ref=f1e184]: Manage study subjects, fill details for completed routine items, and track accumulated study duration.
+        - generic [ref=f1e185]:
+          - heading "Study Subjects" [level=2] [ref=f1e186]
+          - generic [ref=f1e187]:
+            - generic [ref=f1e188]:
+              - text: Add Study Subject
+              - textbox "Add Study Subject" [ref=f1e189]:
+                - /placeholder: PHP, Laravel, Vibe Coding
+            - button "Add" [ref=f1e190] [cursor=pointer]
+          - list [ref=f1e191]:
+            - listitem [ref=f1e192]:
+              - generic [ref=f1e193]: Vibe Coding
+              - button "Delete" [ref=f1e195] [cursor=pointer]
+        - generic [ref=f1e196]:
+          - heading "Pending Study Details" [level=2] [ref=f1e197]
+          - paragraph [ref=f1e198]: No completed study items are waiting for details.
+        - generic [ref=f1e199]:
+          - heading "Total Duration" [level=2] [ref=f1e200]
+          - group [ref=f1e202]:
+            - 'generic "Vibe Coding: 0 min" [ref=f1e203] [cursor=pointer]'
+        - generic [ref=f1e204]:
+          - heading "History" [level=2] [ref=f1e205]
+          - paragraph [ref=f1e206]: No logs yet.
+  - alert [ref=f1e164]
